@@ -16,7 +16,7 @@ call isBadVersion(4) -> true
 Then 4 is the first bad version. 
  */
 
-public class Solution extends VersionControl {
+public class FirstBadVersion extends VersionControl {
     public int firstBadVersion(int n) {
         int low=1;
         int high = n;
